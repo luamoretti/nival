@@ -51,7 +51,7 @@
           <h3 id="titulo-3-contacto">Nuestra oficina central y centro de distribucion se encuentran en <abbr
               title="Mar del Plata">Mardel</abbr>.
           </h3>
-          <div class="redes" id="contacto">
+          <address class="redes" id="contacto">
             <a class="redes" href="https://maps.app.goo.gl/n1vQsi6WEJwz5b1H7" target="_blank" rel="noopener noreferrer">
               <img src="imagenes/direccion.png" alt="Dirección" /> Av. Colón 3676, Mar del Plata
             </a>
@@ -63,7 +63,7 @@
             <a class="redes" href="tel:022344852166">
               <img src="imagenes/llamada.png" alt="Teléfono" /> 0223 4485 - 2166
             </a>
-          </div>
+          </address>
         </div>
       </div>
       <div class="mapa">
@@ -78,21 +78,23 @@
       <hr>
     </div>
     <section class="consultas-container">
-      <h2>Formulario de consultas</h2>
+      <h2 id="titulo-formulario">Formulario de consultas</h2>
       <form action="#">
         <div class="formulario">
-          <div><label for="nombre">Nombre:</label>
+          <div class="form-flex">
+            <label for="nombre">Nombre:</label>
             <input class="input" type="text" id="nombre" name="nombre" required>
             <label for="email">Email:</label>
             <input class="input" type="email" id="email" name="email" required>
           </div>
 
-          <div class="consultas"><label for="consulta">Consulta:</label>
+          <div class="form-flex">
+            <label for="consulta">Consulta:</label>
             <textarea id="consulta" class="input" name="consulta" rows="4" required></textarea>
-            <button class="btn-enviar" type="submit">Enviar</button>
+            
           </div>
 
-
+          <button class="btn-enviar" type="submit">Enviar</button>
         </div>
       </form>
 
@@ -104,12 +106,14 @@
 
     <footer class="footer">
       <div>
-        DMT1BV - Lógica de Programación: Parcial 2
+        <p>DMT1BV - Lógica de Programación: Parcial 2</p>
       </div>
+
       <div>
-        Yemina Olivarez & Lucía Amoretti
+        <p>Yemina Olivarez & Lucía Amoretti</p>
       </div>
     </footer>
+
   </div>
 
 </body>
